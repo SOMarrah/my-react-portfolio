@@ -57,6 +57,11 @@ Repository for my portfolio build and tests.
  - [ ] - Style the HTML elements to be visually appealing
  - [ ] - STRETCH - create 'magic' effects and polish UI elements further.
 
+ ## The Stack
+ - React, React-Three-Fiber, Html, Css.
+
+ - STRETCH - I want to make this project a full stack application in the future. I have been reading into NEXT.js framework and it can use React. This means I should be able to make this a NEXT.js with React-Three-Fiber.
+
  ## 6/7/2022
   - Set up a canvas that can be resized. The canvas is directly rendered through its parent. Having a div with a class name allows me to set the size to whatever I would like in css or inline.
   - Set up Html component. By using the Html helper from drei I was able to create a component that allows Html to be passed into it. This component can be attached to 3d objects being rendered inside of the Canvas. By attaching the Html components this way, the location is automatically updated with the location of the object. (So if you rotate around the object the Html Component will also rotate with the object.)
