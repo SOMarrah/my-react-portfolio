@@ -36,7 +36,7 @@ Repository for my portfolio build and tests.
 
 ## Create the Canvas
  - [x] - Canvas created: Accomplished on 6/7/2022
- - [ ] - import tools to control objects and find coordinates.
+ - [x] - import tools to control objects and find coordinates. - Accomplished on 6/16/2022 (Found LEVA helper!) [leva](https://github.com/pmndrs/leva)
  - [x] - STRETCH - able to change the size of Canvas. (Put it in a div, scale/place where needed) Accomplished on 6/7/2022. Canvas is controlled by its direct parent. Make a div with a className and then I can scale it in styles.css
 
 ## Objects populate scene
@@ -64,3 +64,9 @@ Repository for my portfolio build and tests.
 ## 6/8/2022
   - Set up fixed position camera in orbit controls. The rotation is locked with a min/max by using Azimuth angle, and Polar angle. Can also limit min-zoom and max-zoom. Looking ahead I think I will have to make a function with an eventlistener on click to set the perspective where I need it to be. This could be a limitation, and a workaround would be to have 'clickable' objects that then display each specific html element i want when clicked.
   - Had a wierd GIT error where I was commiting as LEARN Academy- Laptop.
+
+  ## 6/16/2022
+  - I have run into some blockers regarding how to implement my camera changing positions. I might have a few ways to do it, but still need practice with R3F to really grasp it.
+  - I have implemented a way to control objects in the canvas to find positions, scale, rotation, and color( I know there is more to Leva but that is what I have accomplished so far).
+  - Leva will allow me to quickly navigate and organize each component on the scene. Since my project is a 3d 'world', knowing the placement and being able to move things exactly where I need them is crucial - this will save tons of time. (no more editing components by 1 value and waiting to see what changed!) 
+  - I have also created the UI for my project section as a placeholder. I have cards that display an image, have tags to display what language, the title of the project, and a basic button. I did not create the styling for this, just implemented it into the scene to fit what I needed.

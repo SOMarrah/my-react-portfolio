@@ -2,10 +2,10 @@ import React from "react";
 import Text from "./Text"
 
 
-export default function Sphere(){
+export default function Sphere(props){
     return(
       
-      <mesh position={[-5,0,-5]} scale={0.2} className='Sphere'>
+      <mesh {...props} >
         <sphereBufferGeometry args={[5, 24, 24]} />
         <meshStandardMaterial color='blue'/>
         <Text position={[0,9,0]}>
