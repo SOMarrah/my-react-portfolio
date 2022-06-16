@@ -68,5 +68,14 @@ Repository for my portfolio build and tests.
   ## 6/16/2022
   - I have run into some blockers regarding how to implement my camera changing positions. I might have a few ways to do it, but still need practice with R3F to really grasp it.
   - I have implemented a way to control objects in the canvas to find positions, scale, rotation, and color( I know there is more to Leva but that is what I have accomplished so far).
+  ![Leva Controls](screenshots/can%20use%20properties%20to%20set%20controls.png)
+  ![Leva Controls 2](screenshots/leva%20controls%20implemented.png)
   - Leva will allow me to quickly navigate and organize each component on the scene. Since my project is a 3d 'world', knowing the placement and being able to move things exactly where I need them is crucial - this will save tons of time. (no more editing components by 1 value and waiting to see what changed!) 
+  
   - I have also created the UI for my project section as a placeholder. I have cards that display an image, have tags to display what language, the title of the project, and a basic button. I did not create the styling for this, just implemented it into the scene to fit what I needed.
+  ![Projects UI](screenshots/Project%20ui.png)
+  
+  - I have implemented a possible NavBar that looks like a spellbook.
+  ![Spellbook](screenshots/Possible%20NavBar%20in%20HTML.png)
+  - The Spellbook would be transparent when not using it (fades out by 50%), but when you hover over it, the transparency goes to 100%. The buttons also expand towards you like they are coming off the page.
+  ![Spellbook2](screenshots/NavBar%20Html%20transparency%20fad%20in%20button%20expand%20on%20hover.png)
